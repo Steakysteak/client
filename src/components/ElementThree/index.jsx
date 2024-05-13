@@ -13,7 +13,9 @@ const ElementThree = () => {
     getCount();
   }, []);
 
-  return <div>Count of Changes: {count}</div>;
+  return <div>Count of Changes: {count}
+  <button onClick={getCount} >Refresh Count</button>
+  </div>;
 };
 
 export default ElementThree;

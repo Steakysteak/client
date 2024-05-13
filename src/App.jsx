@@ -4,10 +4,9 @@ import ElementOne from "./components/ElementOne";
 import ElementTwo from "./components/ElementTwo";
 import ElementThree from "./components/ElementThree";
 
-import axios from 'axios'
+import axios from "axios";
 
-axios.defaults.baseURL = 'http://localhost:8000';
-
+axios.defaults.baseURL = "http://13.54.227.3:8000";
 
 const App = () => (
   <div
@@ -16,6 +15,8 @@ const App = () => (
       flexDirection: "column",
       gap: "10px",
       flexWrap: "wrap",
+      alignItems: "center",
+      width: "100vw",
     }}
   >
     <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
@@ -24,14 +25,14 @@ const App = () => (
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          border: "solid 1px #ddd",
+          borderRadius: "12px",
           background: "#FF0000",
         }}
         defaultSize={{
           width: 200,
           height: 200,
         }}
-        minWidth={200}
+        minWidth={300}
         minHeight={200}
       >
         <ElementOne />
@@ -41,14 +42,14 @@ const App = () => (
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          border: "solid 1px #ddd",
+          borderRadius: "12px",
           background: "#00FF00",
         }}
         defaultSize={{
           width: 200,
           height: 200,
         }}
-        minWidth={200}
+        minWidth={300}
         minHeight={200}
       >
         <ElementTwo />
@@ -59,14 +60,14 @@ const App = () => (
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        border: "solid 1px #ddd",
+        borderRadius: "12px",
         background: "#0000FF",
       }}
       defaultSize={{
         width: 200,
         height: 200,
       }}
-      minWidth={200}
+      minWidth={300}
       minHeight={200}
     >
       <ElementThree />

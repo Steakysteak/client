@@ -20,7 +20,7 @@ const ElementOne = () => {
 
   return (
     <>
-      <div>
+      <div  >
         <form onSubmit={handleSubmit}>
         <h3 style={{color: '#000000'}} >Add the Data</h3>
           <div style={{ display: "flex", gap: "0.625rem", flexWrap: 'wrap' }}>
