@@ -13,23 +13,24 @@ const App = () => (
     style={{
       display: "flex",
       flexDirection: "column",
-      gap: "10px",
+      gap: "20px",
       flexWrap: "wrap",
       alignItems: "center",
       width: "100vw",
     }}
   >
-    <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+    <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
       <Resizable
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
           borderRadius: "12px",
-          background: "#FF0000",
+          background: " #3F88C5",
+          boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)"
         }}
         defaultSize={{
-          width: 200,
+          width: 350,
           height: 200,
         }}
         minWidth={300}
@@ -43,10 +44,11 @@ const App = () => (
           alignItems: "center",
           justifyContent: "center",
           borderRadius: "12px",
-          background: "#00FF00",
+          background: " #FF6F61",
+          boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)"
         }}
         defaultSize={{
-          width: 200,
+          width: 350,
           height: 200,
         }}
         minWidth={300}
@@ -61,10 +63,11 @@ const App = () => (
         alignItems: "center",
         justifyContent: "center",
         borderRadius: "12px",
-        background: "#0000FF",
+        background: " #A8D5BA",
+        boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08)"
       }}
       defaultSize={{
-        width: 200,
+        width: 350,
         height: 200,
       }}
       minWidth={300}

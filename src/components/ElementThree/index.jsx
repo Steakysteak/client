@@ -13,9 +13,14 @@ const ElementThree = () => {
     getCount();
   }, []);
 
-  return <div>Count of Changes: {count}
-  <button onClick={getCount} >Refresh Count</button>
-  </div>;
+  return (
+    <div style={{display: "flex", alignItems: "center", flexDirection: "column", gap: "8px"}}>
+      <div>
+      Count of Changes: {count}
+      </div>
+      <button onClick={getCount}>Refresh Count</button>
+    </div>
+  );
 };
 
 export default ElementThree;

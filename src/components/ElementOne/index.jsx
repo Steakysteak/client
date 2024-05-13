@@ -20,8 +20,8 @@ const ElementOne = () => {
 
   return (
     <>
-      <div  >
-        <form onSubmit={handleSubmit}>
+      <div>
+        <form onSubmit={handleSubmit} style={{display: "flex", flexDirection: "column", alignItems: "center", gap: "8px"}}>
         <h3 style={{color: '#000000'}} >Add the Data</h3>
           <div style={{ display: "flex", gap: "0.625rem", flexWrap: 'wrap' }}>
             <input
