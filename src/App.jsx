@@ -6,7 +6,7 @@ import ElementThree from "./components/ElementThree";
 
 import axios from "axios";
 
-axios.defaults.baseURL = "http://13.54.227.3:8000";
+axios.defaults.baseURL = "https://13.54.227.3:8443";
 
 const App = () => (
   <div
